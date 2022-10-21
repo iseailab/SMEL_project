@@ -1,0 +1,37 @@
+[1.300s] Invoking command in '/home/jons/launch_tutorial': PYTHONPATH=/home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/jons/launch_tutorial/build/launch_tutorial/build install --prefix /home/jons/launch_tutorial/install/launch_tutorial --record /home/jons/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed
+[1.828s] running egg_info
+[1.829s] creating build/launch_tutorial/launch_tutorial.egg-info
+[1.830s] writing build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.831s] writing dependency_links to build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.831s] writing entry points to build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[1.832s] writing requirements to build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.834s] writing top-level names to build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.834s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.836s] reading manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.838s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.839s] running build
+[1.840s] running build_py
+[1.840s] creating /home/jons/launch_tutorial/build/launch_tutorial/build
+[1.841s] creating /home/jons/launch_tutorial/build/launch_tutorial/build/lib
+[1.842s] creating /home/jons/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[1.846s] copying launch_tutorial/__init__.py -> /home/jons/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[1.849s] running install
+[1.849s] running install_lib
+[1.850s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.853s]   warnings.warn(
+[1.854s] creating /home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.854s] copying /home/jons/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.855s] byte-compiling /home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.856s] running install_data
+[1.856s] creating /home/jons/launch_tutorial/install/launch_tutorial/share/ament_index
+[1.857s] creating /home/jons/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index
+[1.857s] creating /home/jons/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.858s] copying resource/launch_tutorial -> /home/jons/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.858s] copying package.xml -> /home/jons/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.859s] copying launch/example_main.launch.py -> /home/jons/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.860s] copying launch/example_substitutions.launch.py -> /home/jons/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.860s] running install_egg_info
+[1.863s] Copying build/launch_tutorial/launch_tutorial.egg-info to /home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[1.866s] running install_scripts
+[1.906s] writing list of installed files to '/home/jons/launch_tutorial/build/launch_tutorial/install.log'
+[1.938s] Invoked command in '/home/jons/launch_tutorial' returned '0': PYTHONPATH=/home/jons/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/jons/launch_tutorial/build/launch_tutorial/build install --prefix /home/jons/launch_tutorial/install/launch_tutorial --record /home/jons/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed

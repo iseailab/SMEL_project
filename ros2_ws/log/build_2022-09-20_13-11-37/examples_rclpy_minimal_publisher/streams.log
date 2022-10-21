@@ -1,0 +1,34 @@
+[0.983s] Invoking command in '/home/jons/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher
+[1.434s] running develop
+[1.435s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.435s]   warnings.warn(
+[1.438s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.438s]   warnings.warn(
+[1.527s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.527s]   warnings.warn(
+[1.528s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.528s]   warnings.warn(
+[1.699s] running egg_info
+[1.699s] creating examples_rclpy_minimal_publisher.egg-info
+[1.700s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.701s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.701s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.702s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.702s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.703s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.705s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.707s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.708s] running build_ext
+[1.709s] Creating /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.711s] Installing publisher_local_function script to /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.711s] Installing publisher_member_function script to /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.712s] Installing publisher_old_school script to /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.712s] 
+[1.712s] Installed /home/jons/ros2_ws/build/examples_rclpy_minimal_publisher
+[1.713s] running install_data
+[1.714s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[1.714s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[1.714s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.715s] copying resource/examples_rclpy_minimal_publisher -> /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.715s] copying package.xml -> /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.744s] Invoked command in '/home/jons/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_minimal_publisher

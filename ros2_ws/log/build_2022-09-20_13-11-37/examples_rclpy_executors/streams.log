@@ -1,0 +1,37 @@
+[1.301s] Invoking command in '/home/jons/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_executors
+[1.730s] running develop
+[1.739s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.741s]   warnings.warn(
+[1.745s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.745s]   warnings.warn(
+[1.859s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.860s]   warnings.warn(
+[1.861s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.862s]   warnings.warn(
+[2.071s] running egg_info
+[2.071s] creating examples_rclpy_executors.egg-info
+[2.072s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.074s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.075s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.075s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.076s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.077s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.081s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.083s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.087s] running build_ext
+[2.087s] Creating /home/jons/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.090s] Installing callback_group script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.091s] Installing composed script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.092s] Installing custom_callback_group script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.093s] Installing custom_executor script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.094s] Installing listener script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.095s] Installing talker script to /home/jons/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.096s] 
+[2.096s] Installed /home/jons/ros2_ws/build/examples_rclpy_executors
+[2.097s] running install_data
+[2.098s] creating /home/jons/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[2.099s] creating /home/jons/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[2.099s] creating /home/jons/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.100s] copying resource/examples_rclpy_executors -> /home/jons/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.101s] copying package.xml -> /home/jons/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[2.138s] Invoked command in '/home/jons/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_executors

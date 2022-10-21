@@ -1,0 +1,62 @@
+[0.070s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jons/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.108s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.620s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.169s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.174s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.872s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.963s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.162s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.168s] -- Configured cppcheck include dirs: 
+[2.169s] -- Configured cppcheck exclude dirs and/or files: 
+[2.173s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.173s] -- Configured cpplint exclude dirs and/or files: 
+[2.176s] -- Added test 'lint_cmake' to check CMake code style
+[2.179s] -- Added test 'uncrustify' to check C / C++ code style
+[2.179s] -- Configured uncrustify additional arguments: 
+[2.181s] -- Added test 'xmllint' to check XML markup files
+[2.185s] -- Configuring done
+[2.257s] -- Generating done
+[2.264s] -- Build files have been written to: /home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client
+[2.284s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jons/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client
+[2.284s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j2 -l2
+[2.447s] [35m[1mConsolidate compiler generated dependencies of target action_client_member_functions[0m
+[2.456s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable[0m
+[2.588s] [ 25%] Built target action_client_member_functions
+[2.600s] [ 50%] Built target action_client_not_composable
+[2.647s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_cancel[0m
+[2.678s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback[0m
+[2.726s] [ 75%] Built target action_client_not_composable_with_cancel
+[2.759s] [100%] Built target action_client_not_composable_with_feedback
+[2.788s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j2 -l2
+[2.998s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.028s] -- Install configuration: ""
+[3.029s] -- Execute custom install script
+[3.031s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[3.032s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[3.033s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[3.033s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[3.034s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[3.035s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[3.037s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[3.037s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[3.038s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[3.039s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[3.040s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[3.041s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[3.042s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[3.043s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[3.043s] -- Symlinking: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[3.075s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[3.075s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[3.076s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[3.077s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[3.087s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/examples_rclcpp_minimal_action_client

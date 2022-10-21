@@ -1,0 +1,36 @@
+[1.338s] Invoking command in '/home/jons/launch_ws/src/py_launch_example': PYTHONPATH=/home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jons/launch_ws/build/py_launch_example/build install --prefix /home/jons/launch_ws/install/py_launch_example --record /home/jons/launch_ws/build/py_launch_example/install.log --single-version-externally-managed
+[1.883s] running egg_info
+[1.884s] creating ../../build/py_launch_example/py_launch_example.egg-info
+[1.885s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[1.886s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[1.887s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[1.887s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[1.887s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[1.888s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.890s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.893s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.893s] running build
+[1.893s] running build_py
+[1.894s] creating /home/jons/launch_ws/build/py_launch_example/build
+[1.894s] creating /home/jons/launch_ws/build/py_launch_example/build/lib
+[1.894s] creating /home/jons/launch_ws/build/py_launch_example/build/lib/py_launch_example
+[1.895s] copying py_launch_example/__init__.py -> /home/jons/launch_ws/build/py_launch_example/build/lib/py_launch_example
+[1.895s] running install
+[1.901s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.901s]   warnings.warn(
+[1.902s] running install_lib
+[1.903s] creating /home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[1.904s] copying /home/jons/launch_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[1.905s] byte-compiling /home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc
+[1.906s] running install_data
+[1.907s] creating /home/jons/launch_ws/install/py_launch_example/share/ament_index
+[1.908s] creating /home/jons/launch_ws/install/py_launch_example/share/ament_index/resource_index
+[1.909s] creating /home/jons/launch_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[1.909s] copying resource/py_launch_example -> /home/jons/launch_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[1.910s] copying package.xml -> /home/jons/launch_ws/install/py_launch_example/share/py_launch_example
+[1.910s] copying launch/my_script_launch.py -> /home/jons/launch_ws/install/py_launch_example/share/py_launch_example
+[1.910s] running install_egg_info
+[1.913s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[1.916s] running install_scripts
+[1.948s] writing list of installed files to '/home/jons/launch_ws/build/py_launch_example/install.log'
+[1.978s] Invoked command in '/home/jons/launch_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/jons/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jons/launch_ws/build/py_launch_example/build install --prefix /home/jons/launch_ws/install/py_launch_example --record /home/jons/launch_ws/build/py_launch_example/install.log --single-version-externally-managed

@@ -1,0 +1,83 @@
+[0.033s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jons/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[0.064s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.435s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.440s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.451s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.111s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.224s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.369s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.372s] -- Configured cppcheck include dirs: 
+[1.373s] -- Configured cppcheck exclude dirs and/or files: 
+[1.375s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.377s] -- Configured cpplint exclude dirs and/or files: 
+[1.381s] -- Added test 'lint_cmake' to check CMake code style
+[1.383s] -- Added test 'uncrustify' to check C / C++ code style
+[1.384s] -- Configured uncrustify additional arguments: 
+[1.385s] -- Added test 'xmllint' to check XML markup files
+[1.387s] -- Configuring done
+[1.487s] -- Generating done
+[1.500s] -- Build files have been written to: /home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.589s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/jons/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.589s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target subscriber_lambda[0m
+[1.719s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function[0m
+[1.809s] [  8%] Built target subscriber_member_function
+[1.811s] [ 16%] Built target subscriber_lambda
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_topic_statistics[0m
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_type_adapter[0m
+[1.942s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[1.961s] [ 33%] Built target subscriber_member_function_with_type_adapter
+[2.005s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_unique_network_flow_endpoints[0m
+[2.014s] [35m[1mConsolidate compiler generated dependencies of target subscriber_not_composable[0m
+[2.076s] [ 41%] Built target subscriber_not_composable
+[2.121s] [35m[1mConsolidate compiler generated dependencies of target subscriber_content_filtering[0m
+[2.122s] [ 50%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[2.157s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber_library[0m
+[2.194s] [ 58%] Built target subscriber_content_filtering
+[2.222s] [ 75%] Built target wait_set_subscriber_library
+[2.234s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber[0m
+[2.271s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set_subscriber[0m
+[2.325s] [ 83%] Built target wait_set_subscriber
+[2.356s] [ 91%] Built target static_wait_set_subscriber
+[2.385s] [35m[1mConsolidate compiler generated dependencies of target time_triggered_wait_set_subscriber[0m
+[2.441s] [100%] Built target time_triggered_wait_set_subscriber
+[2.464s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[2.736s] Invoking command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[2.756s] -- Install configuration: ""
+[2.757s] -- Execute custom install script
+[2.758s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[2.759s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[2.759s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[2.760s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[2.761s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[2.761s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[2.762s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[2.762s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[2.763s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[2.763s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[2.764s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[2.764s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[2.765s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[2.765s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[2.766s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[2.766s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[2.767s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[2.767s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[2.768s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[2.768s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[2.769s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[2.769s] -- Symlinking: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.788s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[2.788s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[2.789s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[2.790s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[2.790s] -- Up-to-date symlink: /home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.798s] Invoked command in '/home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/examples_rclcpp_minimal_subscriber

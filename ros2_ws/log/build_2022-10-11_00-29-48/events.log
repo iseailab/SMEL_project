@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001741] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001842] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001958] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002182] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002267] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002319] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002404] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002495] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002598] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002690] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002793] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002885] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002987] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003377] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003496] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003630] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003706] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003830] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003944] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004074] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004188] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004316] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004459] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.004586] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.004701] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.004836] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/jons/ros2_ws/install/tutorial_interfaces')])}
+[0.005011] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.097048] (-) TimerEvent: {}
+[0.198372] (-) TimerEvent: {}
+[0.299427] (-) TimerEvent: {}
+[0.400393] (-) TimerEvent: {}
+[0.501597] (-) TimerEvent: {}
+[0.602365] (-) TimerEvent: {}
+[0.703201] (-) TimerEvent: {}
+[0.803983] (-) TimerEvent: {}
+[0.905209] (-) TimerEvent: {}
+[1.006161] (-) TimerEvent: {}
+[1.106989] (-) TimerEvent: {}
+[1.207845] (-) TimerEvent: {}
+[1.308847] (-) TimerEvent: {}
+[1.410081] (-) TimerEvent: {}
+[1.450996] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/jons/ros2_ws/build/py_pubsub/build', 'install', '--prefix', '/home/jons/ros2_ws/install/py_pubsub', '--record', '/home/jons/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/jons/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'jons', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jons/ros2_ws/install/tutorial_interfaces/lib:/home/jons/ros2_ws/install/turtlesim/lib:/home/jons/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/jons/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jons', 'OLDPWD': '/home/jons/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1337', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/rolling/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jons/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jons', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jons', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jons/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jons-virtual-machine:@/tmp/.ICE-unix/1314,unix/jons-virtual-machine:/tmp/.ICE-unix/1314', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8415be68_f10b_4452_80d7_8ff50088585e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y6G8T1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jons/ros2_ws/install/tutorial_interfaces:/home/jons/ros2_ws/install/turtlesim:/home/jons/ros2_ws/install/py_srvcli:/home/jons/ros2_ws/install/py_pubsub:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/home/jons/ros2_ws/install/examples_rclcpp_wait_set:/home/jons/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jons/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclcpp_minimal_service:/home/jons/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jons/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jons/ros2_ws/install/examples_rclcpp_minimal_client:/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jons/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jons/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jons/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/jons/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/jons/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jons/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/jons/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/jons/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jons/ros2_ws/install/tutorial_interfaces:/home/jons/ros2_ws/install/turtlesim:/home/jons/ros2_ws/install/examples_rclcpp_wait_set:/home/jons/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jons/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jons/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclcpp_minimal_service:/home/jons/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jons/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jons/ros2_ws/install/examples_rclcpp_minimal_client:/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jons/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jons/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jons/ros2_ws/install/examples_rclcpp_async_client'}, 'shell': False}
+[1.510310] (-) TimerEvent: {}
+[1.611173] (-) TimerEvent: {}
+[1.712323] (-) TimerEvent: {}
+[1.813166] (-) TimerEvent: {}
+[1.913997] (-) TimerEvent: {}
+[1.918987] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.920246] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.929024] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.929412] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.929803] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.930584] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.934172] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.936922] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.937692] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.938170] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.939978] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/jons/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.940197] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/jons/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.940591] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.941137] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.941366] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.946103] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.946682] (py_pubsub) StdoutLine: {'line': b'copying /home/jons/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.946833] (py_pubsub) StdoutLine: {'line': b'copying /home/jons/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.948437] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[1.950767] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[1.952524] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.955210] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/jons/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[1.955456] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.958324] (py_pubsub) StdoutLine: {'line': b"removing '/home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.959583] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jons/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[1.963255] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.000213] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/jons/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.001298] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/jons/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.002475] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/jons/ros2_ws/build/py_pubsub/install.log'\n"}
+[2.014211] (-) TimerEvent: {}
+[2.041967] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.089338] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.091016] (-) EventReactorShutdown: {}

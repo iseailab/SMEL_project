@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.209s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[13.820s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[14.685s] [100%] Built target parameter_event_handler
+[14.711s] Invoked command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2
+[14.834s] Invoking command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/cpp_parameter_event_handler
+[14.856s] -- Install configuration: ""
+[14.858s] -- Installing: /home/jons/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[14.875s] -- Set runtime path of "/home/jons/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[14.877s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[14.877s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[14.878s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[14.879s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[14.879s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[14.879s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[14.880s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[14.880s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[14.880s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[14.881s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[14.881s] -- Installing: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[14.882s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[14.882s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[14.883s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[14.884s] -- Up-to-date: /home/jons/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[14.890s] Invoked command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jons/ros2_ws/build/cpp_parameter_event_handler

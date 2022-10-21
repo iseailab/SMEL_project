@@ -1,0 +1,12 @@
+[0.031s] Invoking command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[4.560s] [01m[K/home/jons/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[4.560s] [01m[K/home/jons/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:27:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcb[m[K’?
+[4.560s]    27 | subscriber_->add_parameter_callback(remote_param_name, [01;31m[Kcb2[m[K, remote_node_name);
+[4.561s]       |                                                        [01;31m[K^~~[m[K
+[4.561s]       |                                                        [32m[Kcb[m[K
+[8.182s] gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[8.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[8.191s] gmake: *** [Makefile:146: all] Error 2
+[8.191s] Invoked command in '/home/jons/ros2_ws/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/cpp_parameter_event_handler -- -j2 -l2

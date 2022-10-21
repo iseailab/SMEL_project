@@ -1,0 +1,35 @@
+[0.931s] Invoking command in '/home/jons/ros2_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client
+[1.370s] running develop
+[1.370s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.370s]   warnings.warn(
+[1.372s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.372s]   warnings.warn(
+[1.463s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.463s]   warnings.warn(
+[1.464s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.464s]   warnings.warn(
+[1.693s] running egg_info
+[1.694s] creating examples_rclpy_minimal_action_client.egg-info
+[1.695s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[1.696s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[1.697s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[1.697s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[1.698s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[1.699s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.703s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.704s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.706s] running build_ext
+[1.707s] Creating /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[1.709s] Installing client script to /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.709s] Installing client_asyncio script to /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.710s] Installing client_cancel script to /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.710s] Installing client_not_composable script to /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.711s] 
+[1.711s] Installed /home/jons/ros2_ws/build/examples_rclpy_minimal_action_client
+[1.711s] running install_data
+[1.712s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index
+[1.712s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index
+[1.713s] creating /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.713s] copying resource/examples_rclpy_minimal_action_client -> /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.714s] copying package.xml -> /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[1.744s] Invoked command in '/home/jons/ros2_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/jons/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/jons/ros2_ws/install/examples_rclpy_minimal_action_client

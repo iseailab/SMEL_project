@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000609] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000754] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001624] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001782] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001925] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002088] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002171] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002282] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002506] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002962] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003100] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003208] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003347] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.003441] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003549] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.003676] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003768] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003908] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004073] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.005023] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.005177] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.005484] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.007687] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.007821] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.007991] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.008071] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.008175] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.008405] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.008514] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.038932] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.042759] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[0.042913] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jons/ros2_ws/build/cpp_parameter_event_handler', '--', '-j2', '-l2'], 'cwd': '/home/jons/ros2_ws/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jons'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jons'), ('OLDPWD', '/home/jons/ros2_ws/src/cpp_parameter_event_handler/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jons'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jons'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jons/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jons-virtual-machine:@/tmp/.ICE-unix/1318,unix/jons-virtual-machine:/tmp/.ICE-unix/1318'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/562a2e10_0235_402d_b5e6_af0c0ae75005'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3E19T1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jons/ros2_ws/build/cpp_parameter_event_handler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099747] (-) TimerEvent: {}
+[0.179688] (cpp_parameter_event_handler) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target parameter_event_handler\x1b[0m\n'}
+[0.200183] (-) TimerEvent: {}
+[0.239396] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[0.300946] (-) TimerEvent: {}
+[0.402112] (-) TimerEvent: {}
+[0.503248] (-) TimerEvent: {}
+[0.604057] (-) TimerEvent: {}
+[0.705206] (-) TimerEvent: {}
+[0.806392] (-) TimerEvent: {}
+[0.907623] (-) TimerEvent: {}
+[1.008590] (-) TimerEvent: {}
+[1.109775] (-) TimerEvent: {}
+[1.211248] (-) TimerEvent: {}
+[1.312461] (-) TimerEvent: {}
+[1.413508] (-) TimerEvent: {}
+[1.514666] (-) TimerEvent: {}
+[1.615826] (-) TimerEvent: {}
+[1.717009] (-) TimerEvent: {}
+[1.818336] (-) TimerEvent: {}
+[1.919453] (-) TimerEvent: {}
+[2.020684] (-) TimerEvent: {}
+[2.122006] (-) TimerEvent: {}
+[2.223154] (-) TimerEvent: {}
+[2.324552] (-) TimerEvent: {}
+[2.425886] (-) TimerEvent: {}
+[2.527294] (-) TimerEvent: {}
+[2.628376] (-) TimerEvent: {}
+[2.729364] (-) TimerEvent: {}
+[2.830484] (-) TimerEvent: {}
+[2.931623] (-) TimerEvent: {}
+[3.032675] (-) TimerEvent: {}
+[3.133981] (-) TimerEvent: {}
+[3.235165] (-) TimerEvent: {}
+[3.336353] (-) TimerEvent: {}
+[3.437838] (-) TimerEvent: {}
+[3.538873] (-) TimerEvent: {}
+[3.640062] (-) TimerEvent: {}
+[3.741313] (-) TimerEvent: {}
+[3.842656] (-) TimerEvent: {}
+[3.943338] (-) TimerEvent: {}
+[4.044469] (-) TimerEvent: {}
+[4.145165] (-) TimerEvent: {}
+[4.246366] (-) TimerEvent: {}
+[4.347188] (-) TimerEvent: {}
+[4.447991] (-) TimerEvent: {}
+[4.548940] (-) TimerEvent: {}
+[4.649798] (-) TimerEvent: {}
+[4.724478] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jons/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSampleNodeWithParameters::SampleNodeWithParameters()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.724893] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jons/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:28:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcb2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.725194] (cpp_parameter_event_handler) StderrLine: {'line': b'   28 |     cb_handle_ = param_subscriber_->add_parameter_callback("an_int_param", \x1b[01;31m\x1b[Kcb\x1b[m\x1b[K);\n'}
+[4.725474] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.725772] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Kcb2\x1b[m\x1b[K\n'}
+[4.750501] (-) TimerEvent: {}
+[4.851436] (-) TimerEvent: {}
+[4.952413] (-) TimerEvent: {}
+[5.053325] (-) TimerEvent: {}
+[5.154367] (-) TimerEvent: {}
+[5.255203] (-) TimerEvent: {}
+[5.356165] (-) TimerEvent: {}
+[5.457168] (-) TimerEvent: {}
+[5.558153] (-) TimerEvent: {}
+[5.659048] (-) TimerEvent: {}
+[5.759935] (-) TimerEvent: {}
+[5.861040] (-) TimerEvent: {}
+[5.962216] (-) TimerEvent: {}
+[6.063404] (-) TimerEvent: {}
+[6.164448] (-) TimerEvent: {}
+[6.265412] (-) TimerEvent: {}
+[6.366443] (-) TimerEvent: {}
+[6.467585] (-) TimerEvent: {}
+[6.568550] (-) TimerEvent: {}
+[6.669444] (-) TimerEvent: {}
+[6.770820] (-) TimerEvent: {}
+[6.871405] (-) TimerEvent: {}
+[6.972358] (-) TimerEvent: {}
+[7.073363] (-) TimerEvent: {}
+[7.174493] (-) TimerEvent: {}
+[7.275632] (-) TimerEvent: {}
+[7.376757] (-) TimerEvent: {}
+[7.477713] (-) TimerEvent: {}
+[7.578314] (-) TimerEvent: {}
+[7.679172] (-) TimerEvent: {}
+[7.780377] (-) TimerEvent: {}
+[7.881391] (-) TimerEvent: {}
+[7.982403] (-) TimerEvent: {}
+[8.083308] (-) TimerEvent: {}
+[8.184247] (-) TimerEvent: {}
+[8.285432] (-) TimerEvent: {}
+[8.386427] (-) TimerEvent: {}
+[8.405924] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1\n'}
+[8.407053] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2\n'}
+[8.407404] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.412907] (cpp_parameter_event_handler) CommandEnded: {'returncode': 2}
+[8.486906] (-) TimerEvent: {}
+[8.572934] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 2}
+[8.578362] (-) EventReactorShutdown: {}

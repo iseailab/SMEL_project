@@ -1,0 +1,50 @@
+[0.060s] Invoking command in '/home/jons/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jons/ros2_ws/install/py_srvcli:/home/jons/ros2_ws/install/py_pubsub:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[0.127s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.697s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.718s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.768s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.081s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.084s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.855s] -- Found tutorial_interfaces: 0.0.0 (/home/jons/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.893s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.526s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.598s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.678s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.680s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.680s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.746s] -- Configuring done
+[3.756s] [31mCMake Error at CMakeLists.txt:11 (add_executable):
+[3.756s]   Cannot find source file:
+[3.757s] 
+[3.757s]     src/add_two_ints_server.cpp
+[3.757s] 
+[3.757s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.757s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.757s] 
+[3.758s] [0m
+[3.761s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[3.761s]   Cannot find source file:
+[3.761s] 
+[3.761s]     src/add_two_ints_client.cpp
+[3.762s] 
+[3.762s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.762s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.762s] 
+[3.764s] [0m
+[3.770s] [31mCMake Error at CMakeLists.txt:11 (add_executable):
+[3.770s]   No SOURCES given to target: server
+[3.770s] 
+[3.770s] [0m
+[3.770s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[3.770s]   No SOURCES given to target: client
+[3.770s] 
+[3.770s] [0m
+[3.771s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.782s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[3.789s] Invoked command in '/home/jons/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jons/ros2_ws/install/py_srvcli:/home/jons/ros2_ws/install/py_pubsub:/home/jons/ros2_ws/install/launch_testing_examples:/home/jons/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jons/ros2_ws/install/examples_rclpy_minimal_service:/home/jons/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jons/ros2_ws/install/examples_rclpy_minimal_client:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jons/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jons/ros2_ws/install/examples_rclpy_guard_conditions:/home/jons/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/jons/ros2_ws/build/tutorial_interfaces -- -j2 -l2

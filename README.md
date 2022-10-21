@@ -105,7 +105,7 @@ In the third terminal:
 ```
 ros2 run py_srvcli client 2 3
 ```
-Output:
+Output:<br/>
 ![client](https://user-images.githubusercontent.com/90167023/197254478-bb7b518e-52ac-4250-9deb-9d00008de0bf.png)
 <br/>
 
@@ -341,13 +341,3 @@ ros2 run tf2_ros tf2_echo [reference_frame] [target_frame]
 ros2 run tf2_ros tf2_echo turtle2 turtle1
 ```
 ![image](https://user-images.githubusercontent.com/90167023/197260663-4463df3b-e8bf-4058-99d5-0aed67d355b3.png)
-
-```
-
-```
-```
-
-```
-
-
-

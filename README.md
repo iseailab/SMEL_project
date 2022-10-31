@@ -341,3 +341,43 @@ ros2 run tf2_ros tf2_echo [reference_frame] [target_frame]
 ros2 run tf2_ros tf2_echo turtle2 turtle1
 ```
 ![image](https://user-images.githubusercontent.com/90167023/197260663-4463df3b-e8bf-4058-99d5-0aed67d355b3.png)
+
+<br/>
+<br/>
+
+
+## 9. Setup PC
+<br/>
+
+Install ROS 2 on remote PC:
+```
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_foxy.sh
+sudo chmod 755 ./install_ros2_foxy.sh
+bash ./install_ros2_foxy.sh
+```
+Install Gazebo:
+```
+sudo apt-get install ros-foxy-gazebo-*
+```
+Install Cartographer:
+```
+sudo apt install ros-foxy-cartographer
+sudo apt install ros-foxy-cartographer-ros
+```
+Install Navigation2:
+```
+sudo apt install ros-foxy-navigation2
+sudo apt install ros-foxy-nav2-bringup
+```
+Install TurtleBot3 packages:
+```
+source ~/.bashrc
+sudo apt install ros-foxy-dynamixel-sdk
+sudo apt install ros-foxy-turtlebot3-msgs
+sudo apt install ros-foxy-turtlebot3
+```
+Set the ROS environment for PC:
+```
+echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
+source ~/.bashrc
+```
